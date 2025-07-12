@@ -28,7 +28,7 @@ padding: 0;
 }
 
 .buttons, .spacer {
-  width: 60px; /* 왼쪽 버튼 영역과 같게 */
+  width: 60px; 
 }
 
 .title {
@@ -50,7 +50,7 @@ padding: 0;
   width: 12px;
   height: 12px;
   border-radius: 50%;
-padding: 0;       /* 패딩 없음 */
+padding: 0;       
   box-sizing: border-box;
   vertical-align: middle;
 }
@@ -70,12 +70,12 @@ padding: 0;       /* 패딩 없음 */
 .youtube-video iframe {
   max-width: 100%;
   height: auto;
-  border-radius: 10px; /* 모서리 둥글게 */
+  border-radius: 10px;
 }
 
 .icon-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);  /* 기존 3 → 2로 변경 */
+  grid-template-columns: repeat(2, 1fr); 
   padding: 20px;
   gap: 20px;
   text-align: center;
@@ -110,29 +110,28 @@ padding: 0;       /* 패딩 없음 */
 }
 
 .icon-item a:hover img {
-  transform: scale(1.2); /* 1.2배 확대 */
+  transform: scale(1.2);
 }
 
 .icon-item a:hover svg {
-  transform: scale(1.2); /* 1.2배 확대 */
+  transform: scale(1.2); 
 }
 
-.bottom-link {
-  /* margin-top: 24px;         아이콘과의 간격 */
-  text-align: center;       /* 가운데 정렬 */
+.bottom-link {       
+  text-align: center;  
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
 .bottom-link a {
-  color: #888;              /* 링크 색상 */
-  font-size: 14px;          /* 글씨 크기 */
-  text-decoration: none;    /* 밑줄 제거 */
+  color: #888;              
+  font-size: 14px;         
+  text-decoration: none;    
   transition: color 0.2s;
 }
 
 .bottom-link a:hover {
-  color: blue;              /* 호버 시 색상 변경 */
+  color: blue;           
 }
 
 
